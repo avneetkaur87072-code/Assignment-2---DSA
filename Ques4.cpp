@@ -40,7 +40,7 @@ void deleteVowels(){
 	result[k] = '\0';
 	if(k>0)
 	cout << "String without vowels : " << result << endl;
-	else cout << "String is empty whem vowels are removed." <<endl;
+	else cout << "String is empty when vowels are removed." <<endl;
 }
 
 void sortString(){
@@ -72,15 +72,16 @@ void upperCase(){
 	cout << "enter the string : ";
 	cin >> str;
 	
-	cout << "Thes tring in uppercase is : " << struppr(str) << endl;
+	cout << "The string in uppercase is : " << struppr(str) << endl;
 	
 }
 
 int main(){
-//	concat();
-//	reverse();
-//	deleteVowels();
-//	sortString();
+	concat();
+	reverse();
+	deleteVowels();
+	sortString();
 	upperCase();
 	return 0;
 }
+
