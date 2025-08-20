@@ -41,7 +41,7 @@ void tridiagonal() {
 
     cout << "Tri-diagonal Matrix : " << endl;
 
-    int k = 0; // index for tri[]
+    int k = 0; // index for tri array
     for (int i = 0; i < n; i++) {
         for (int j = 0; j < n; j++) {
             if (i - j == 1) {          // lower diagonal
@@ -162,3 +162,4 @@ int main(){
     symmetricMatrix();  
 	return 0;
 }
+
