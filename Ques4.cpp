@@ -68,11 +68,14 @@ void sortString(){
 }
 
 void upperCase(){
-	char str[100];
+	char ch;
 	cout << "enter the string : ";
-	cin >> str;
-	
-	cout << "The string in uppercase is : " << struppr(str) << endl;
+	cin >> ch;
+	if(ch >='A' && ch <='Z'){
+		ch = ch+32;
+		cout << ch << endl;
+	} else{
+		cout << "alreagu in uppercase." << endl;
 	
 }
 
@@ -84,4 +87,5 @@ int main(){
 	upperCase();
 	return 0;
 }
+
 
